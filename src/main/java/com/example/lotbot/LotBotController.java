@@ -52,6 +52,7 @@ public class LotBotController {
         transaction.setCar(car);
         transaction.setCheckedInDate(LocalDateTime.now());
         lots.get(id).getSpaces()[spot] = new Space(transaction);
+        transactions.add(transaction);
 
         //must return car object in the request body
     }

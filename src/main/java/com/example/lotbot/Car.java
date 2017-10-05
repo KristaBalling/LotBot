@@ -14,5 +14,8 @@ public class Car {
     public Car(String licensePlate) {
         this.licensePlate = licensePlate;
     }
+
+    public Car() {
+    }
 }
 
